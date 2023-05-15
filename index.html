@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="C:\Users\happy\OneDrive\Imágenes\Challenge Encriptador\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img src= "C:\Users\happy\OneDrive\Imágenes\Challenge Encriptador\imagenes\Logo.png" alt="logo de Alura" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="30" rows="10"></textarea>
+            <div>
+                <button class="copiar" type="button" name="copiar" value="copiar" id="copiar" onclick="btnCopiar()">Copiar</button>
+                <button class="pegar" type="button" value="pegar" id="pegar">Pegar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="autor-d">Para el desafío del programa Oracle One Next Education 2023. Creado por Jessica Valencia</p>
+    </footer>
+    <script src="C:\Users\happy\OneDrive\Imágenes\Challenge Encriptador\script.js">
+    </script>
+</body>    
+</html>
